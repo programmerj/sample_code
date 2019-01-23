@@ -22,7 +22,7 @@ class SpiderTestDev256Com( CrawlSpider ):
     # https://stackoverflow.com/questions/13724730/how-to-get-the-scrapy-failure-urls
     handle_httpstatus_list = [ 404, 500, 503, 403 ]
 
-    # если нужно парсить и зарисывать исходные страницы с 301 и кодом, то решение здесь:
+    # если нужно парсить и записывать исходные страницы с 301 и кодом, то решение здесь:
     # Can't get Scrapy to parse and follow 301, 302 redirects
     # https://stackoverflow.com/questions/39776377/cant-get-scrapy-to-parse-and-follow-301-302-redirects
 
