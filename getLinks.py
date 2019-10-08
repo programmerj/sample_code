@@ -4,10 +4,6 @@ from urllib.request import Request, urlopen  # Python 3
 from bs4 import BeautifulSoup
 import settingsLogging
 
-# curFileId = "20171213"
-# curFileId = "20180226"
-# curFileId = "20180227"
-# curFileId = "20180419"
 # curFileId = "20180513"
 # curFileId = "20180531"
 # curFileId = "20180613"
